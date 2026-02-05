@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Dropbox/Documents/CV(VSC)/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
