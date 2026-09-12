@@ -158,3 +158,41 @@ header p {
 .workplace {
   margin-bottom: 15px;
 }
+
+/* --- Print settings --- */
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  .line {
+    margin: 0.5em 0;
+  }
+
+  .workplace {
+    margin-bottom: 8px;
+  }
+
+  p {
+    margin: 6px 0px;
+  }
+
+  .left p {
+    margin: 5px 0px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 3px 0px;
+  }
+
+  header {
+    padding: 8px 0;
+  }
+}
